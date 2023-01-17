@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Techcareer_net_Odev_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="8Ng-ue-53S">
+                                <rect key="frame" x="0.0" y="244" width="414" height="618"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="AiT-Ws-T7Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="123"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQr-gV-eNM">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonSifirla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NhX-dw-lsr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHl-yz-dif">
+                                                <rect key="frame" x="104" y="0.0" width="102.5" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="±">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonCevir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fuD-gd-HgK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkl-vl-60u">
+                                                <rect key="frame" x="207.5" y="0.0" width="103" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="%">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="comingSoon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZTH-wW-a3m"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pP-t4-vi1">
+                                                <rect key="frame" x="311.5" y="0.0" width="102.5" height="123"/>
+                                                <color key="backgroundColor" name="islemRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="÷">
+                                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="63"/>
+                                                    <color key="baseForegroundColor" name="tusRenk"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="comingSoon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGd-d8-n58"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="QLi-vT-fF4">
+                                        <rect key="frame" x="0.0" y="124" width="414" height="122.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UQ-i9-v2Z">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="122.5"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mge-OJ-2Nz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4C-If-u5S">
+                                                <rect key="frame" x="104" y="0.0" width="102.5" height="122.5"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DqZ-6o-sfS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-ne-GxC">
+                                                <rect key="frame" x="207.5" y="0.0" width="103" height="122.5"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9EY-d9-6ec"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCp-RU-J8G">
+                                                <rect key="frame" x="311.5" y="0.0" width="102.5" height="122.5"/>
+                                                <color key="backgroundColor" name="islemRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="X">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="tusRenk"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="comingSoon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pHu-VJ-gXv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="fW8-xe-PaX">
+                                        <rect key="frame" x="0.0" y="247.5" width="414" height="123"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIe-QZ-asM">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3lu-Ie-c48"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX4-W7-u3b">
+                                                <rect key="frame" x="104" y="0.0" width="102.5" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GOh-vI-4U5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyb-8K-JYg">
+                                                <rect key="frame" x="207.5" y="0.0" width="103" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mjT-pI-9u2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCg-Dl-7lT">
+                                                <rect key="frame" x="311.5" y="0.0" width="102.5" height="123"/>
+                                                <color key="backgroundColor" name="islemRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="−">
+                                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="tusRenk"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="comingSoon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8G-WU-ztD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ylr-Oc-kga">
+                                        <rect key="frame" x="0.0" y="371.5" width="414" height="122.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOP-8e-HZ9">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="122.5"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ktz-88-GEb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1r-LH-PUH">
+                                                <rect key="frame" x="104" y="0.0" width="102.5" height="122.5"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rsj-51-bFk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nw-Nx-3Dh">
+                                                <rect key="frame" x="207.5" y="0.0" width="103" height="122.5"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wqn-qR-8UY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyy-Hi-6yk">
+                                                <rect key="frame" x="311.5" y="0.0" width="102.5" height="122.5"/>
+                                                <color key="backgroundColor" name="islemRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="tusRenk"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wIK-Wa-H1K"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="AAC-Xl-2Ir">
+                                        <rect key="frame" x="0.0" y="495" width="414" height="123"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7O7-R3-F35">
+                                                <rect key="frame" x="0.0" y="0.0" width="206" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zQY-dx-1iK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5R-CM-1EE">
+                                                <rect key="frame" x="207" y="0.0" width="103" height="123"/>
+                                                <color key="backgroundColor" name="tusRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=".">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="hesapBackground"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="comingSoon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D1l-2M-WdT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tL1-6h-SQy">
+                                                <rect key="frame" x="311" y="0.0" width="103" height="123"/>
+                                                <color key="backgroundColor" name="islemRenk"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="=">
+                                                    <fontDescription key="titleFontDescription" name="Avenir-Light" family="Avenir" pointSize="50"/>
+                                                    <color key="baseForegroundColor" name="tusRenk"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6v-Dc-mAN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="7O7-R3-F35" firstAttribute="width" secondItem="tL1-6h-SQy" secondAttribute="width" multiplier="2" id="qLN-2L-qOp"/>
+                                            <constraint firstItem="7O7-R3-F35" firstAttribute="width" secondItem="V5R-CM-1EE" secondAttribute="width" multiplier="2" id="tRK-zi-mIN"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fW8-xe-PaX" firstAttribute="height" secondItem="QLi-vT-fF4" secondAttribute="height" id="P6O-XS-X0g"/>
+                                    <constraint firstItem="AAC-Xl-2Ir" firstAttribute="height" secondItem="Ylr-Oc-kga" secondAttribute="height" id="dkZ-l4-hhG"/>
+                                    <constraint firstItem="QLi-vT-fF4" firstAttribute="height" secondItem="AiT-Ws-T7Q" secondAttribute="height" id="nrx-SH-Qxj"/>
+                                    <constraint firstItem="Ylr-Oc-kga" firstAttribute="height" secondItem="fW8-xe-PaX" secondAttribute="height" id="zWA-wX-lBN"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mV-y7-EbU">
+                                <rect key="frame" x="8" y="152" width="398" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" name="tusRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="hesapBackground"/>
+                        <constraints>
+                            <constraint firstItem="8Ng-ue-53S" firstAttribute="top" secondItem="8mV-y7-EbU" secondAttribute="bottom" constant="8" symbolic="YES" id="1TJ-DY-EWP"/>
+                            <constraint firstItem="8Ng-ue-53S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KqA-en-4EL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Ng-ue-53S" secondAttribute="trailing" id="OcB-T9-jgx"/>
+                            <constraint firstAttribute="trailing" secondItem="8mV-y7-EbU" secondAttribute="trailing" constant="8" id="QV6-dl-Q1h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Ng-ue-53S" secondAttribute="bottom" id="Qvi-D5-zoQ"/>
+                            <constraint firstItem="8Ng-ue-53S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="eZp-Kk-hGY"/>
+                            <constraint firstItem="8mV-y7-EbU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="kfa-Lg-B0W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelSonuc" destination="8mV-y7-EbU" id="R38-oB-eZH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="55.580357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="hesapBackground">
+            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="islemRenk">
+            <color red="0.94901960784313721" green="0.4823529411764706" blue="0.074509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tusRenk">
+            <color red="0.84313725490196079" green="0.84313725490196079" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
